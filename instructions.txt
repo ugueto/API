@@ -1,0 +1,30 @@
+Instructions:
+
+The objective is to create a HTTP API to manage customer data for a small shop. It will work as the backend for a CRM graphical interface that is being developed by a different team. As a developer of the backend project, you will be in charge of the API design and implementation. API must have the following capabilities:
+
+Create a new customer. A customer must have the following attributes: name, surname, email and birthdate.
+Get a single customer with all the attributes mentioned above.
+Get all customers. For each customer, the same information must be obtained as in the previous point.
+Update all the attributes (at once) of an existing customer mentioned above.
+Delete an existing customer.
+
+We recommend you to take advantage of tools, frameworks and/or libraries provided by your platform of choice.
+
+Your application data does not need to be persisted after the application is stopped.
+
+Try to apply SOLID principles whenever possible.
+
+We will discard any submission that require us to install servers, databases or any other application than the one containing the HTTP API. It is allowed to use build tools like npm, Gradle, Maven, setuptools... or docker-compose to run the application.
+
+Your application must contain unit tests. Write at least one unit test for each capability mentioned above. For each capability, test the parts you consider most important.
+
+Create a Dockerfile that contains the instructions to assemble a Docker image that runs your application (see the following guides https://docs.docker.com/language/).
+
+How to submit
+Please, upload your completed project to a git repository in GitHub, and then paste a link to the repository below in the form along with any comments you have about your solution.
+
+Before you complete your submission, create a new branch with a small change from the main branch and create a pull request targeting the main branch so that all tests are automatically run on GitHub to ensure that no errors are introduced in the main branch (see https://docs.github.com/en/actions/using-workflows).
+
+You need to indicate in the README.md of your git repository, all the necessary instructions to run your application and invoke the HTTP endpoints.
+
+¡Don't forget to make the git repository public so we can see it and clone it!
